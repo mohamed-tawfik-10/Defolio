@@ -1,0 +1,610 @@
+body {
+    background-color: #f5f5f5;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  .dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+  }
+  .dark-mode .text-dark {
+    color: #f5f5f5 !important;
+  }
+  
+.defolio {
+    background-image: url(../image/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+
+}.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar li {
+    padding-left: 15px;
+  }
+  
+  .navbar .nav-link.active,
+  .navbar .nav-link:hover {
+    color: #e9113c !important;
+  }
+  
+  .dropdown-sub .submenu {
+    display: none;
+    top: 0;
+    right: 100%;
+    left: auto;
+    margin-top: 0;
+  }
+  
+  /* show submenu on hover */
+  .dropdown-sub:hover .submenu {
+    display: block;
+  }
+  
+  /* تحسين شكل الظهور */
+  .dropdown-menu,
+  .submenu {
+    transition: 0.3s ease;
+    background-color: #fff;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .op:hover .show {
+    opacity: 1;
+    display: block;
+  }
+
+  
+
+
+
+
+
+.home {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+.inner {
+    position: relative;
+    top: 45%;
+}
+
+.inner h1 {
+    font-size: 75px;
+
+
+}
+
+.inner h4::after {
+    content: "";
+    position: absolute;
+    
+    bottom: 0;
+    right: 88x;
+    padding-left: 10px;
+    margin-top: 6px;
+    animation-name: username;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes username {
+    0%{
+        content: "D|";
+    }
+    1% {
+        content: "De |";
+    }
+
+    2% {
+        content: "Des |";
+    }
+
+    3% {
+        content: "Desi |";
+    }
+
+    4% {
+        content: "Desig |";
+    }
+
+    5% {
+        content: "Design |";
+    }
+
+    6%{
+        content:"Designe |" ;
+    }
+    7%{
+        content:"Designer |" ;
+    }
+    8%{
+        content:"Designe |" ;
+    }
+    9%{
+        content:"Design |" ;
+    }
+    10%{
+        content:"Desig |" ;
+    }
+    11%{
+        content:"Desi |" ;
+    }
+    12%{
+        content:"Des |" ;
+    }
+    13%{
+        content:"De |" ;
+    }
+    14%{
+        content:"Dev |" ;
+    }
+    15%{
+        content:"Deve |" ;
+    }
+    16%{
+        content:"Devel |" ;
+    }
+    17%{
+        content:"Develo |" ;
+    }
+    18%{
+        content:"Develop |" ;
+    }
+    19%{
+        content:"Develope |" ;
+    }
+    20%{
+        content:"Developer |" ;
+    }
+    21%{
+        content:"Develope |" ;
+    }
+    22%{
+        content:"Develop |" ;
+    }
+    23%{
+        content:"Develo |" ;
+    }
+    24%{
+        content:"Devel |" ;
+    }
+    25%{
+        content:"Deve |" ;
+    }
+    26%{
+        content:"Dev |" ;
+    }
+    27%{
+        content:"De |" ;
+    }
+    28%{
+        content:"D |" ;
+    }
+    29%{
+        content:"F |" ;
+    }
+    30%{
+        content:"Fr |" ;
+    }
+    31%{
+        content:"Fre |" ;
+    }
+    32%{
+        content:"Free |" ;
+    }
+    33%{
+        content:"Freel |" ;
+    }
+    34%{
+        content:"Freela |" ;
+    }
+    35%{
+        content:"Freelan |" ;
+    }
+    36%{
+        content:"Freelanc |" ;
+    }
+    37%{
+        content:"Freelance |" ;
+    }
+    38%{
+        content:"Freelancer |" ;
+    }
+    39%{
+        content:"Freelance |" ;
+    }
+    40%{
+        content:"Freelanc |" ;
+    }
+    41%{
+        content:"Freelan |" ;
+    }
+    42%{
+        content:"Freela |" ;
+    }
+    43%{
+        content:"Freel |" ;
+    }
+    44%{
+        content:"Free |" ;
+    }
+    45%{
+        content:"Fre |" ;
+    }
+    46%{
+        content:"Fr |" ;
+    }
+    47%{
+        content:"F |" ;
+    }
+    48%{
+        content:"p |" ;
+    }
+    49%{
+        content:"ph |" ;
+    }
+    50%{
+        content:"pho |" ;
+    }
+    51%{
+        content:"phot |" ;
+    }
+    52%{
+        content:"photo |" ;
+    }
+    53%{
+        content:"photog |" ;
+    }
+    54%{
+        content:"photogr |" ;
+    }
+    55%{
+        content:"photogra |" ;
+    }
+    56%{
+        content:"photograp |" ;
+    }
+    57%{
+        content:"photograph |" ;
+    }
+    58%{
+        content:"photographe |" ;
+    }
+    59%{
+        content:"photographer |" ;
+    }
+    60%{
+        content:"photographe |" ;
+    }
+    61%{
+        content:"photograph |" ;
+    }
+    62%{
+        content:"photograp |" ;
+    }
+    63%{
+        content:"photogra |" ;
+    }
+    64%{
+        content:"photogr |" ;
+    }
+    65%{
+        content:"photog |" ;
+    }
+    66%{
+        content:"photo |" ;
+    }
+    67%{
+        content:"phot |" ;
+    }
+    68%{
+        content:"pho |" ;
+    }69%{
+        content:"ph |" ;
+    }
+    70%{
+        content:"p |" ;
+    }
+    71%{
+        content: "";
+    }
+}
+
+
+/* ممممممممم */
+
+.about-title::after {
+    content: "";
+    background-color: #0078ff;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .progress {
+    height: 8px;
+    border-radius: 0;
+  }
+  .profile-info p {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+
+/* sodifvwrgvo */
+
+.pcol {
+    color: rgb(78, 78, 78);
+    padding-bottom: 20px;
+
+}
+
+.fs {
+    font-size: 50px;
+}
+
+.pcol::after {
+    content: "";
+    background-color: #0078ff;
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+}
+
+
+/* w;rgmwpgjwr */
+
+.box i {
+    padding: 30px;
+    border: 10px solid #0078ff;
+    /* إضافة حد حول الأيقونة */
+    border-radius: 50%;
+}
+
+.box:hover i {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    /* إضافة حد حول الأيقونة */
+    border-radius: 50%;
+    background-color: 0078ff;
+    color: white;
+
+}
+
+
+
+/* wor; */
+
+
+
+.work {
+
+    background:
+    linear-gradient(rgba(0, 120, 255 ,.5), rgba(0, 120, 255,0.5)),
+    url(../image/post-3.jpg);
+    background-size: cover;
+    background-attachment : fixed
+
+}
+
+
+
+.ground {
+    z-index: 1;
+    background-color: rgba(177, 177, 205, 0.5);
+}
+
+.width90 {
+    width: 90%;
+    margin: auto;
+}
+
+.work i {
+    padding: 20px;
+    border: 10px solid rgb(212, 212, 220);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.work .col-md-3:hover i {
+    background-color: #0078ff;
+    color: white;
+    border-color: transparent;
+}
+
+/* تخصيص الأيقونات */
+.work .col-md-3 i {
+    color: #0078ff;
+}
+
+.work h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.work p {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+
+
+/* blog */
+
+
+
+
+.pfs{
+    font-size: 13px;
+}
+
+
+
+
+.blog img{
+    transition: transform 1s 
+
+}
+.blog {
+    position: relative;
+    overflow: hidden;
+  }
+  .blog::after {
+    content: "View Project";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    background-color: rgba(0, 120, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+  }
+  .blog:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+
+
+
+
+
+/* dropdown */
+
+button.btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 120, 255, 0.4);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+
+.bgfo{
+    background:
+    linear-gradient(rgba(0, 120, 255 ,.5), rgba(0, 120, 255,0.5)),
+    url(../image/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment : fixed
+}
+
+.carousel-item img{
+    width: 150px;
+    height: 150px;
+}
+.carousel-indicators [data-bs-target] 
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-indent: 0;
+    background-color: black;
+}
+/* .carousel-indicators img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
+
+
+
+/* blog */
+
+
+.posh2{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    bottom: 11px;
+}
+.fsbb{
+    font-size: 12px;
+
+}
+.widph{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* messand */
+
+
+
+
+.messbg{
+    background:
+    linear-gradient(rgba(0, 120, 255 ,.5), rgba(0, 120, 255,0.5)),
+    url(../image/overlay-bg.jpg);
+    background-size: cover;
+}
+
+.send h2::after {
+    content: "";
+    background-color: #0078ff;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.get h2::after {
+    content: "";
+    background-color: #0078ff;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.meesicon i{
+    margin-right: 10px;
+    color: #0078ff;
+    padding: 10px;
+    padding-bottom: 13px;
+    border: 3px solid #0078ff;
+    /* إضافة حد حول الأيقونة */
+    border-radius: 50%;
+}
+
+
+
+
+
+/* end */
+
+
+
+
+
+
+
+.endd{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+
